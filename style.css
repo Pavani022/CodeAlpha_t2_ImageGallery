@@ -1,0 +1,65 @@
+body{
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;  /* A clean and modern font */
+    font-size: 48px;                     /* Large, attention-grabbing size */
+    font-weight: 700;                    /* Bold for emphasis */                        
+    /*  color: #333; A dark color for contrast */
+    text-align: center;                  /* Center alignment */
+    margin-top: 20px;                    /* Space above the heading */
+    margin-bottom: 30px;                 /* Space below the heading */
+    letter-spacing: 2px;                 /* Spacing between letters */
+    text-transform: uppercase;           /* All caps for a dramatic effect */
+    position: relative;                  /* To add effects like underline */
+}
+
+h1::after {
+    content: '';                         /* Creates a line under the heading */
+    display: block;
+    width: 100px;                        /* Adjust the width of the underline */
+    height: 4px;                         /* Line thickness */
+    background-color: #FF6347;           /* Line color (tomato) */
+    margin: 10px auto 0;                 /* Centered line with margin */
+    border-radius: 2px;                  /* Rounded ends for the line */
+}
+
+h1:hover {
+    color: #FF6347;                      /* Changes text color on hover */
+    transition: color 0.3s ease;         /* Smooth color transition */
+}
+
+h1:hover::after {
+    width: 150px;                        /* Increases the line width on hover */
+    transition: width 0.3s ease;         /* Smooth transition for line */
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 7px;
+    padding: 10px;
+    gap: 10px;
+}
+.image img{
+    width: 215px;
+    height: 215px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+    box-shadow:  0 12px 24px white;
+}
+.img-fluid{
+    width: 450px;
+    height: 450px;
+}
+#imageModalLabel{
+    text-align: center;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Add your gradient color here */
+    color: white; /* Ensure the text is visible */
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body class="container-fluid">
+    <h1>A Gallery of Art & Design</h1>
+    <div class="gallery">
+        <div class="image">
+            <img src="image1.jpg" alt="image1" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image2.jpg" alt="image2" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image3.jpg" alt="image3" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="image4" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image5.jpg" alt="image5" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image6.jpg" alt="image6" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image7.jpg" alt="image7" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image8.jpg" alt="image8" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image9.jpg" alt="image9" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image10.jpg" alt="image10" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image1.jpg" alt="image1" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image2.jpg" alt="image2" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image3.jpg" alt="image3" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="image4" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image5.jpg" alt="image5" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image6.jpg" alt="image6" data-bs-toggle="modal" data-bs-target="#imageModal"  onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image7.jpg" alt="image7" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image8.jpg" alt="image8" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image9.jpg" alt="image9" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image10.jpg" alt="image10" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image1.jpg" alt="image1" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image2.jpg" alt="image2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image3.jpg" alt="image3" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image4.jpg" alt="image4" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image5.jpg" alt="image5" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image6.jpg" alt="image6" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image7.jpg" alt="image7" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image8.jpg" alt="image8" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image9.jpg" alt="image9" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+        <div class="image">
+            <img src="image10.jpg" alt="image10" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="openModal(this)">
+        </div>
+    </div>
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header text-center" id="imageModalLabel" >
+                    <h2>Image Preview</h2>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImage" src="" alt="Full Image" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
